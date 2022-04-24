@@ -7,7 +7,7 @@ A Tutorial on how to log into course-specific account on ieng6.
 * Click on this [Link](https://code.visualstudio.com) and then follow the download instructions and install it on your computer.
 
 * When you successfully install VScode, you should get something that looks like this:
-![Image](lab-report-1-sc1.png)
+![Image](lab-report-1/lab-report-1-sc1.png)
 
 ## Step 2: Remotely Connecting
 
@@ -20,7 +20,7 @@ In order to remotely connection to your ieng6 account, you will have to use SSH 
 * In VScode, open up the terminal (Ctrl + \` (Windows), Ctrl + \` (Mac) or click on Terminal -> New Terminal)
 
 * The terminal on VSCode should look like this:
-![Image](lab-report-1-sc2.JPG)
+![Image](lab-report-1/lab-report-1-sc2.JPG)
 
 * In the terminal, type out:
 > ssh [Your ieng6 account]
@@ -37,7 +37,7 @@ Example:
 
 * Type yes and press enter. You will then be prompted to type in your password. After succesfully entering the right password you will then connect to your ieng6 account. It shoud look like something like this:
 
-![Image](lab-report-1-sc3.JPG)
+![Image](lab-report-1/lab-report-1-sc3.JPG)
 
 You can log out of the remote computer by pressing Ctrl + D or run the command exit
 ## Step 3: Trying Some Commands
@@ -51,7 +51,7 @@ Some commands you can try are:
 * cp
 
 When trying out those commands, the terminal should look something like this:
-![Image](lab-report-1-sc4.JPG)
+![Image](lab-report-1/lab-report-1-sc4.JPG)
 
 ## Step 4: Moving Files with scp
 In this step, you will be learning how to transfer files to the remote computer. You will always use scp from the client (your computer not the remote computer).
@@ -82,7 +82,7 @@ Example:
 
 * Then log into your ieng6 account and try running the file using javac and java! It should look something like this:
 
-![Image](lab-report-1-sc5.JPG)
+![Image](lab-report-1/lab-report-1-sc5.JPG)
 
 ## Part 6: Setting an SSH Key
 As you may have noticed, it is quite tedious and annoying to constantly type in the password when trying to access the remote computer. SSH Keys can solve this problem by essentially completing the password process without you having to constantly type it.
@@ -99,7 +99,7 @@ As you may have noticed, it is quite tedious and annoying to constantly type in 
 > /Users/\<user-name\>/.ssh/id_rsa
 
 * The result should look like this:
-![Image](lab-report-1-sc6.JPG)
+![Image](lab-report-1/lab-report-1-sc6.JPG)
 
 * Then follow these steps:
 >
@@ -128,4 +128,4 @@ Example:
 > cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 
 Typing out the command above will look like this:
-![Image](lab-report-1-sc7.JPG)
+![Image](lab-report-1/lab-report-1-sc7.JPG)
